@@ -1,0 +1,26 @@
+/* ******************* */
+/*         Nav         */
+/* ******************* */
+.home{
+	ul{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		padding:10px 0px;
+		li{
+			color:red;
+			background-color: white;
+
+			@if $lang == 'ar' {
+				float:right;
+			}@else{
+				float:left;
+			}
+
+			text-decoration: underline;
+
+		}
+	}
+	
+}
